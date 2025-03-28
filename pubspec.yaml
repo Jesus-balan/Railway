@@ -39,6 +39,7 @@ dependencies:
   hive:
   hive_flutter:
   equatable:
+  firebase_auth:
   flutter_onboarding_slider:
 
 dev_dependencies:

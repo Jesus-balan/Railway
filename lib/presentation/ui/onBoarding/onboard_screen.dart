@@ -24,22 +24,22 @@ class OnBoarding extends StatelessWidget {
       finishButtonStyle: FinishButtonStyle(
         backgroundColor: kDarkBlueColor,
       ),
-      skipTextButton: Text(
-        'Skip',
-        style: TextStyle(
-          fontSize: 16,
-          color: kDarkBlueColor,
-          fontWeight: FontWeight.w600,
-        ),
-      ),
-      trailing: Text(
-        'Login',
-        style: TextStyle(
-          fontSize: 16,
-          color: kDarkBlueColor,
-          fontWeight: FontWeight.w600,
-        ),
-      ),
+      // skipTextButton: Text(
+      //   'Skip',
+      //   style: TextStyle(
+      //     fontSize: 16,
+      //     color: kDarkBlueColor,
+      //     fontWeight: FontWeight.w600,
+      //   ),
+      // ),
+      // trailing: Text(
+      //   'Login',
+      //   style: TextStyle(
+      //     fontSize: 16,
+      //     color: kDarkBlueColor,
+      //     fontWeight: FontWeight.w600,
+      //   ),
+      // ),
       trailingFunction: () {
         Navigator.push(
           context,
@@ -80,7 +80,7 @@ class OnBoarding extends StatelessWidget {
                 height: 480,
               ),
               Text(
-                'On your way...',
+                'Welcome to Railway App',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: kDarkBlueColor,
@@ -92,7 +92,7 @@ class OnBoarding extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'to find the perfect looking Onboarding for your app?',
+                'Your journey starts here! Book tickets, check train schedules, and travel hassle-free.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black26,
@@ -115,7 +115,7 @@ class OnBoarding extends StatelessWidget {
                 height: 480,
               ),
               Text(
-                'You’ve reached your destination.',
+                'Secure & Easy Booking',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: kDarkBlueColor,
@@ -127,7 +127,7 @@ class OnBoarding extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Sliding with animation',
+                'Book tickets securely in just a few taps. Say goodbye to long queues!',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black26,
@@ -150,7 +150,7 @@ class OnBoarding extends StatelessWidget {
                 height: 480,
               ),
               Text(
-                'Start now!',
+                "Let's Get Started!",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: kDarkBlueColor,
@@ -162,7 +162,7 @@ class OnBoarding extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Where everything is possible and customize your onboarding.',
+                'Join thousands of happy travelers. Sign up now and explore the best railway experience.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.black26,
